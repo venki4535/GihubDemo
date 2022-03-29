@@ -15,6 +15,7 @@ public class BasePage extends page{
 	@Override
 	public String getPageTitle() {
 		System.out.println("bnew comment");
+		System.out.println("bnew comment");
 		return driver.getTitle();
 	}
 
