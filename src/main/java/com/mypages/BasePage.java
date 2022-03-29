@@ -14,12 +14,14 @@ public class BasePage extends page{
 
 	@Override
 	public String getPageTitle() {
+		System.out.println("bnew comment");
 		return driver.getTitle();
 	}
 
 	@Override
 	public String getPageHeader(By locator) {
 		return getElement(locator).getText();
+		
 	}
 
 	@Override
